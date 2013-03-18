@@ -1,12 +1,8 @@
 Run("notepad.exe")
-WinWaitActive("Untitled - Notepad")
-Sleep(2000)
-Send("Sogeti is pleasure")
+Sleep(4000)
+Send("Sogeti is awesome")
 WinClose("Untitled - Notepad")
-WinWaitActive("Notepad", "Save")
-Send("!s")
-Sleep(2000)
-Send("Henriksdemo.txt")
-Send("!s")
-Send("!y")
+Sleep(3000)
+Send("!n")
+
 
