@@ -4,7 +4,7 @@
 
     <target name="build">
         <exec executable="cmd">
-            <arg value="npad.au3"/>
+            <arg value="npad.exe"/>
         </exec>
     </target>
 
