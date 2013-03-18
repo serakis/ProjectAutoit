@@ -2,9 +2,9 @@
 
 <project name="Test" default="build" basedir=".">
 
-    <target name="build">
-        <exec executable="cmd">
-            <arg value="npad.exe"/>
+    <target name="test">
+        <exec executable="npad.exe">
+        
         </exec>
     </target>
 
