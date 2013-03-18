@@ -3,7 +3,7 @@
 <project name="Test" default="build" basedir=".">
 
     <target name="test">
-        <exec executable="C:\Users\dserakis\npad.exe">
+        <exec executable="C:\Users\dserakis\npadE.exe">
         
         </exec>
     </target>
