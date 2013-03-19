@@ -3,7 +3,7 @@
 <project name="Test" default="test" basedir=".">
 
     <target name="test">
-        <exec executable="C:\Users\dserakis\ProjAutoit\npadE.exe" output="C:\Users\dserakis\ProjAutoit\logOutput">
+        <exec executable="C:\Users\dserakis\ProjAutoit\npadE.exe">
         	<env key="DSIAPLY" value=":1.0"/>
         </exec>
     </target>
