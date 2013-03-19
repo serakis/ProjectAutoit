@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Test" default="build" basedir=".">
+<project name="Test" default="test" basedir=".">
 
     <target name="test">
         <exec executable="C:\Users\dserakis\npadE.exe">
