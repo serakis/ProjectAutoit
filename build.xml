@@ -4,7 +4,7 @@
 
     <target name="test">
         <exec executable="C:\Users\dserakis\npadE.exe">
-        
+        	<env key="DSIAPLY" value=":1.0"/>
         </exec>
     </target>
 
