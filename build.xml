@@ -6,6 +6,9 @@
         <exec executable="C:\Users\dserakis\ProjAutoit\npadE.exe">
         	<env key="DSIAPLY" value=":1.0"/>
         </exec>
+	<exec executable="C:\Users\dserakis\ProjAutoit\Cmd1.exe">
+        	<env key="DSIAPLY" value=":1.0"/>
+        </exec>
     </target>
 
 </project>
