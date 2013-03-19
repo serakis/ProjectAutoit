@@ -1,8 +1,7 @@
-Run("notepad.exe")
-Sleep(4000)
-Send("Sogeti is awesome")
-WinClose("Untitled - Notepad")
+Run("cmd.exe")
 Sleep(3000)
-Send("!n")
+Send('exit')
+Send('{ENTER}')
+
 
 
