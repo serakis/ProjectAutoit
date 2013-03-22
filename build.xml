@@ -3,10 +3,10 @@
 <project name="Test" default="test" basedir=".">
 
     <target name="test">
-        <exec executable="C:\Users\dserakis\ProjAutoit\npadE.exe">
+        <exec executable="C:\Users\dserakis\git\ProjAutoit\npadE.exe">
         	<env key="DSIAPLY" value=":1.0"/>
         </exec>
-	<exec executable="C:\Users\dserakis\ProjAutoit\Cmd1.exe">
+		<exec executable="C:\Users\dserakis\git\ProjAutoit\Cmd1.exe">
         	<env key="DSIAPLY" value=":1.0"/>
         </exec>
     </target>
