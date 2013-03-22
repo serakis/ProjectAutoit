@@ -6,7 +6,7 @@ WinClose("Untitled - Notepad")
 WinWaitActive("Notepad", "Save")
 Send("!s")
 Sleep(2000)
-Send("Henriksdemo.txt")
+Send("dimitriosdemo.txt")
 Send("!s")
 Send("!y")
 
